@@ -1,0 +1,29 @@
+<template>
+  <div id="app">
+   {{ msg }}
+  </div>
+</template>
+
+
+<script>
+export default {
+  name: 'App',
+  data(){
+    return {
+      msg: 'hello world'
+      }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  }
+</style>
